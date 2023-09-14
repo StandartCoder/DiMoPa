@@ -1,0 +1,28 @@
+{
+  "name": "discord-moderation-panel",
+  "version": "0.0.1",
+  "description": "Discord Moderation Panel that allows you to manage your discord server!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StandartCoder/DiMoPa.git"
+  },
+  "keywords": [
+    "discord",
+    "panel",
+    "dashboard",
+    "moderation",
+    "bot",
+    "guild",
+    "server"
+  ],
+  "author": "StandartCoder",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/StandartCoder/DiMoPa/issues"
+  },
+  "homepage": "https://github.com/StandartCoder/DiMoPa#readme"
+}
