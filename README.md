@@ -1,7 +1,7 @@
 <!-- Logo -->
 <p align="center">
   <a href="https://github.com/StandartCoder/DiMoPa">
-    <img src="./assets/images/logo.png" alt="Logo" width="100" height="100">
+    <img src="./assets/images/logo/github.png" alt="Logo" width="100" height="100">
   </a>
 </p>
 
@@ -49,7 +49,7 @@
 <!-- Getting Started -->
 ## 🛠 Getting Started
 
-Simply double-click the Start-File to launch the panel.
+Simply double-click the start file to launch the panel, if you are using an Unix/Linux just use `.\start.sh`.
 <br/>
 
 <!-- Installation -->
@@ -71,14 +71,12 @@ cd DiMoPa/
 ```
 
 > ⚠️ **NOTE**: Coming Soon... Don't do it now...
-2. Just double-click the Start-File and the panel start... But now the bot isn't set up yet.
+2. Just double-click the start file and the panel start... But now the panel isn't set up yet.
 3. Once you launch it the first time you can setup the panel, and this is pretty easy!
-
 4. Start using DiscordModerationPanel!
 <br/>
 
 <!-- ROADMAP -->
-
 ## Roadmap
 
 <p align="center">
@@ -90,19 +88,19 @@ cd DiMoPa/
     <img src="./assets/images/previews/dropShadow.png" width="100%"/>
   </a>
 </p>
-<br/>
 
 <!-- CONTRIBUTING -->
-
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-View [translation guide](https://github.com/StandartCoder/DiMoPa/blob/master/.github/TRANSLATION.md).
+View [translation guide](https://github.com/StandartCoder/DiMoPa/blob/main/.github/TRANSLATION.md). 
+> ⚠️ **NOTE**: Not active currently...
 
-View [contribution guide](https://github.com/StandartCoder/DiMoPa/blob/master/.github/CONTRIBUTION.md).
+View [contribution guide](https://github.com/StandartCoder/DiMoPa/blob/main/.github/CONTRIBUTION.md).
+> ⚠️ **NOTE**: Not active currently...
+
 <br/>
-
 ## Supporters/Contributors
 ### Translators:
 
