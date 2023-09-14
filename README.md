@@ -98,9 +98,8 @@ View [translation guide](https://github.com/StandartCoder/DiMoPa/blob/main/.gith
 > ⚠️ **NOTE**: Not active currently...
 
 View [contribution guide](https://github.com/StandartCoder/DiMoPa/blob/main/.github/CONTRIBUTION.md).
-> ⚠️ **NOTE**: Not active currently...
-
 <br/>
+
 ## Supporters/Contributors
 ### Translators:
 
@@ -110,7 +109,9 @@ View [contribution guide](https://github.com/StandartCoder/DiMoPa/blob/main/.git
 | [StandartCoder](https://github.com/StandartCoder)     | German    |
 
 <br/>
+
 ## License
+
 Copyright © 2023 StandartCoder (standartcoder@gmail.com)
 
 Distributed under the GNU General Public License v3.0. See `LICENSE` for more information.
