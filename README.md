@@ -33,16 +33,16 @@
 <!-- Information -->
 ## What's DiscordModerationPanel?
 
-<a href="https://github.com/StandartCoder/DiPoMa" target="_blank">DiscordModerationPanel</a> is a new panel that allows you to manage your discord server using an web panel.
+<a href="https://github.com/StandartCoder/DiPoMa" target="_blank">DMP</a> is a new panel that allows you to manage your discord server using an web panel.
 <br/>
 
 <!-- Features -->
 ## ✨ Features
 
 - 📊 **Discord Bot Statistics:** Gain full insights and details of your discord bot with server and bot information.
-- 💬 **Simple Managing Interface:** DiscordModerationPanel allows you to easily manage members and chat within servers using your discord bot. The panel also has a light and dark theme to suit your needs!
-- 🔒 **Security:** DiscordModerationPanel does not run on any servers and can be self hosted. All bot details are stored locally and is completely secure.
-- 👀 **Opensource:** DiscordModerationPanel is open source on GitHub so you can see all the code behind the project.
+- 💬 **Simple Managing Interface:** DMP allows you to easily manage members/messages within servers using your discord bot. The panel also has a light and dark theme to suit your needs!
+- 🔒 **Security:** DMP does not run on any servers and can be self hosted. All bot details are stored locally and is completely secure.
+- 👀 **Opensource:** DMP is open source on GitHub so you can see all the code behind the project.
 
 <br/>
 
@@ -73,7 +73,7 @@ cd DiMoPa/
 > ⚠️ **NOTE**: Coming Soon... Don't do it now...
 2. Just double-click the start file and the panel start... But now the panel isn't set up yet.
 3. Once you launch it the first time you can setup the panel, and this is pretty easy!
-4. Start using DiscordModerationPanel!
+4. Start using DMP!
 <br/>
 
 <!-- ROADMAP -->
