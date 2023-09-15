@@ -33,7 +33,7 @@
 <!-- Information -->
 ## What's DiscordModerationPanel?
 
-<a href="https://github.com/StandartCoder/DiPoMa" target="_blank">DMP</a> is a new panel that allows you to manage your discord server using an web panel.
+<a href="https://github.com/StandartCoder/DiMoPa" target="_blank">DMP</a> is a new panel that allows you to manage your discord server using an web panel.
 <br/>
 
 <!-- Features -->
@@ -41,8 +41,8 @@
 
 - 📊 **Discord Bot Statistics:** Gain full insights and details of your discord bot with server and bot information.
 - 💬 **Simple Managing Interface:** DMP allows you to easily manage members/messages within servers using your discord bot. The panel also has a light and dark theme to suit your needs!
-- 🔒 **Security:** DMP does not run on any servers and can be self hosted. All bot details are stored locally and is completely secure.
-- 👀 **Opensource:** DMP is open source on GitHub so you can see all the code behind the project.
+- 🔒 **Security:** DMP does not run on any servers and can be self-hosted. All bot details are stored locally and is completely secure.
+- 👀 **Open Source:** DMP is open source on GitHub so you can see all the code behind the project.
 
 <br/>
 
@@ -92,7 +92,7 @@ cd DiMoPa/
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 View [translation guide](https://github.com/StandartCoder/DiMoPa/blob/main/.github/TRANSLATION.md). 
 > ⚠️ **NOTE**: Not active currently...
