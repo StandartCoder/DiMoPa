@@ -43,6 +43,10 @@ const log = {
     console.log(chalk.magenta(formattedMessage));
     appendToFile(formattedMessage);
   },
+  newline: () => {
+    console.log("\n");
+    appendToFile(formattedMessage);
+  },
   logo: () => {
     clearConsole();
     const gradientColors = [

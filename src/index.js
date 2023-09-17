@@ -1,10 +1,6 @@
 const { Worker, isMainThread, parentPort } = require('worker_threads');
-const fs = require('fs').promises;
-const path = require('path');
 const db = require('./utils/dbConnection.js');
 const log = require('./utils/logger.js');
-
-const configFilePath = path.join(__dirname, '..', 'data', 'config.json');
 
 async function startDashboard() {
   const dashboardThread = new Worker('./src/threads/dashboard.js');
@@ -26,16 +22,38 @@ async function startDiscord() {
   discordBotThread.postMessage('startDiscordBot');
 }
 
+async function isFirstStart() {
+  const firstStart = await db.get('first_start');
+  return !firstStart;
+}
+
+async function setupDatabase() {
+  await db.set('first_start', false)
+  await db.set('config', {token: "", invite_url: "", ownerid: ""})
+  await db.set('server_data', [])
+  await db.set('user_data', [])
+}
+
 async function main() {
   log.logo();
 
   try {
-    await fs.access(configFilePath, fs.constants.F_OK);
+    const isStart = await isFirstStart();
+    if (isStart) {
+      log.info('This is the first start of this application! Setting up database...');
+      await setupDatabase();
+    }
+
+    const config = await db.get('config');
+    if (!config || config.token == "") {
+      log.warn('This application isn\'t set up yet! Please do it now!');
+      return startDashboard();
+    }
+
     await startDashboard();
     await startDiscord();
   } catch (err) {
-    log.warn(`This program isn't set up yet! Please do it now!`);
-    await startDashboard();
+    log.error(`Error in main script: ${err}`);
   }
 }
 
