@@ -24,5 +24,19 @@
   "bugs": {
     "url": "https://github.com/StandartCoder/DiMoPa/issues"
   },
-  "homepage": "https://github.com/StandartCoder/DiMoPa#readme"
+  "homepage": "https://github.com/StandartCoder/DiMoPa#readme",
+  "dependencies": {
+    "@discordjs/rest": "^2.0.1",
+    "better-sqlite3": "^8.6.0",
+    "chalk": "^4.1.1",
+    "clear-console": "^1.1.0",
+    "discord-api-types": "^0.37.56",
+    "discord.js": "^14.13.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "quick.db": "^9.1.7"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
 }
