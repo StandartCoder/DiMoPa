@@ -28,7 +28,7 @@ async function isFirstStart() {
 }
 
 async function setupDatabase() {
-  await db.set('first_start', false)
+  await db.set('first_start', true)
   await db.set('config', {token: "", invite_url: "", ownerid: ""})
   await db.set('server_data', [])
   await db.set('user_data', [])
