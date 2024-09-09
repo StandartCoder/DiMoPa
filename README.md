@@ -106,8 +106,7 @@ View [contribution guide](https://github.com/StandartCoder/DiMoPa/blob/main/.git
 
 | Author                                                | Language  |
 | ----------------------------------------------------- | --------- |
-| [StandartCoder](https://github.com/StandartCoder)     | English   |
-| [StandartCoder](https://github.com/StandartCoder)     | German    |
+| [StandartCoder](https://github.com/StandartCoder)     | English, German   |
 
 <br/>
 
